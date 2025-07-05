@@ -1,0 +1,127 @@
+/* ==== GLOBAL STYLES ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Additional styles truncated for brevity... */
+
+/* Responsive Utilities */
+@media (max-width: 1200px) {
+  .container,
+  .about-section,
+  .FAQ-section,
+  .footer-container {
+    padding: 0 20px;
+  }
+
+  .review-card {
+    min-width: 45%;
+  }
+
+  .section-subscribe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .about-section,
+  .hero,
+  .FAQ-section,
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav,
+  .stats,
+  .shop-container,
+  .Fragrance-wrapper,
+  .subscription-container,
+  .COL-section,
+  .review-cards {
+    flex-direction: column;
+  }
+
+  .hero-left h1,
+  .COL-heading,
+  .subscription-heading,
+  .GTG-heading,
+  .review-header h2 {
+    font-size: 24px;
+  }
+
+  .stats div,
+  .review-header p,
+  .footer-column a,
+  .shop-title,
+  .shop-desc,
+  .section-subscribe-heading,
+  .section-subscribe-description {
+    font-size: 14px;
+  }
+
+  .shop-main-img,
+  .Fragrance-img-area img,
+  .subscription-right img,
+  .section-subscribe {
+    width: 100%;
+  }
+
+  .footer-newsletter,
+  .section-subscribe-form {
+    width: 100%;
+  }
+
+  .COL-right,
+  .about-image-box {
+    order: -1;
+  }
+
+  .footer-logo,
+  .footer-newsletter {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav,
+  .nav-right,
+  .search-box,
+  .shop-thumbnail-grid,
+  .shop-fragrance-options {
+    flex-direction: column;
+  }
+
+  .shop-fragrance-card,
+  .review-card,
+  .GTG-table-wrapper {
+    width: 100%;
+  }
+
+  .section-subscribe-button,
+  .section-subscribe-input {
+    width: 100%;
+  }
+
+  .footer-newsletter .newsletter-form {
+    flex-direction: column;
+  }
+
+  .footer-newsletter input[type="email"],
+  .footer-newsletter button {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
+/* End of Responsive CSS */
